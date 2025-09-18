@@ -6,7 +6,7 @@ Linkedu é um projeto dos alunos do quinto semestre de Engenharia da Computaçã
 - [Felipe](https://www.github.com/feliperafaldini)
 - [Hyan](https://github.com/Kunikazu723)
 - [Lenin](https://github.com/leninpellizzoni)
-- [Peterson]()
+- [Peterson](https://github.com/Peterson-F5rr51r4)
 
 ## Funcionalidades
 
