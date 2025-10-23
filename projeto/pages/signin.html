@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     
     <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="..\assets\css\styles.css">
 </head>
 <body>
     <!-- Header -->
@@ -47,39 +47,32 @@
 
                 <div class="d-flex gap-2">
                     <a href="#saiba-mais" class="btn btn-outline-primary">Saiba Mais</a>
-                    <a href="\pages\signin.html" class="btn btn-outline-secondary">Entrar</a>
-                    <a href="\pages\signup.html" class="btn btn-primary">Cadastrar</a>
+                    <a href="..\pages\signin.html" class="btn btn-outline-secondary">Entrar</a>
+                    <a href="..\pages\signup.html" class="btn btn-primary">Cadastrar</a>
                 </div>
             </div>
         </div>
     </nav>
 
-    <!-- Hero -->
-    <section id="home" class="hero-section-signin">
+    <!-- Main -->
+    <section id="home" class="main-section-signin">
         <div class="container py-5">
-            <div class="hero-content">
-                <h1 class="display-4 fw-bold mb-4">
-                    Login
-                </h1>
+            <div class="main-content">
+                <h1 class="display-4 fw-bold mb-5 d-flex flex-row justify-content-center">Login</h1>
                 <form>
-                    <div class="mb-3">
-                        
+                    <div class="mb-4">
                         <label for ="exampleInputEmbail1" class="form-label">Endereço de email</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text mb-3">Insira seu endereço de email</div>
+                        <div id="emailHelp" class="form-text mb-4 ms-1">Insira seu endereço de email</div>
                         
                         <label for="exampleInputPassword" class="form-label">Senha</label>
                         <input type="senha" class="form-control" id="exampleInputPassword" aria-describedby="passwordHelp">
-                        <div id="passwordHelp" class="form-text mb-3">Insira sua senha de acesso</div>
+                        <div id="passwordHelp" class="form-text mb-5 ms-1">Insira sua senha de acesso</div>
 
-                        <a href="#" class="btn btn-primary btn-lg">
-                            Login
-                        </a>
-
-                        <a href="#" class="btn btn-secondary btn-lg">
-                            Recuperar a senha
-                        </a>
-                        
+                        <div class="d-flex flex-row justify-content-between">
+                            <a href="#" class="btn btn-primary btn-lg">Entrar</a>
+                            <a href="#" class="btn btn-secondary btn-lg">Recuperar Senha</a>
+                        </div>
                     </div>
                 </form>
             </div>
@@ -179,6 +172,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     
     <!-- JS -->
-    <script src="script.js"></script>
+    <script src="..\assets\javascript\scripts.js"></script>
 </body>
 </html>
