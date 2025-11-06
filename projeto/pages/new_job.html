@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linkedu - Cadastrar usuário</title>
+    <title>Linkedu - Acessar conta</title>
     
     <!-- Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -56,55 +56,26 @@
 
     <!-- Main -->
     <div class="container mt-5">
-        <h2 class="display-4 fw-bold mb-5 d-flex flex-row justify-content-center">Registro</h2>
-        <div class="btn-group w-100 mb-4" role="group">
-            <button id="btnForm1" class="btn btn-outline-primary switch-btn active">Aluno</button>
-            <button id="btnForm2" class="btn btn-outline-primary switch-btn">Empresa</button>
-        </div>
-    
-        <!-- Aluno -->
-        <div id="form1" class="form-section active">
+        <h2 class="display-4 fw-bold mb-5 d-flex flex-row justify-content-center">Cadastrar Vaga</h2>
+        <div id="form3" class="form-section active">
             <form>
                 <div class="mb-5">
                     <div class="mb-3">
-                        <label for="name" class="form-label">Nome:</label>
-                        <input type="text" class="form-control" id="name">
+                        <label for="job" class="form-label">Vaga:</label>
+                        <input type="text" class="form-control" id="job">
                     </div>
                     <div class="mb-3">
-                        <label for="email" class="form-label">Email:</label>
-                        <input type="text" class="form-control" id="email">
+                        <label for="city" class="form-label">Cidade:</label>
+                        <input type="text" class="form-control" id="city">
                     </div>
-                    <div class="mb-3">
-                        <label for="university" class="form-label">Instituição de Ensino</label>
-                        <input type="text" class="form-control" id="university">
+                    <div class="mt-5 mb-5 d-flex flex-row justify-content-center">
+                        <button type="submit" class="btn btn-primary btn-lg">Cadastrar</button>
                     </div>
-                </div>
-                <div class="mt-5 mb-5 d-flex flex-row justify-content-center">
-                    <button type="submit" class="btn btn-primary btn-lg">Cadastrar</button>
-                </div>
-            </form>
-        </div>
-
-        <!-- Empresa -->
-        <div id="form2" class="form-section">
-            <form>
-                <div class="mb-5">
-                    <div class="mb-3">
-                        <label for="commpany" class="form-label">Empresa: </label>
-                        <input type="text" class="form-control" id="company">
-                    </div>
-                    <div class="mb-3">
-                        <label for="telephone" class="form-label">Telefone: </label>
-                        <input type="text" class="form-control" id="number">
-                    </div>
-                </div>
-                <div class="mt-5 mb-5 d-flex flex-row justify-content-center">
-                    <button type="submit" class="btn btn-primary btn-lg">Cadastrar</button>
                 </div>
             </form>
         </div>
     </div>
-     
+    
     <!-- Footer -->
     <footer class="bg-light py-5">
         <div class="container">
