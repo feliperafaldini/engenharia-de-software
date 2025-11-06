@@ -34,3 +34,8 @@ class FormSwitcher {
 document.addEventListener("DOMContentLoaded", () => {
   new FormSwitcher("btnForm1", "btnForm2", "form1", "form2");
 });
+
+var swiper = new Swiper(".mySwiper", {
+  effect: "cards",
+  grabCursor: true,
+})

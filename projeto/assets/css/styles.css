@@ -10,3 +10,23 @@
     background-color: #0d6efd;
     color: white;
 }
+
+.swiper {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.swiper-wrapper {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.card {
+    box-shadow: none !important;
+    background-color: white !important;
+}
+
+.swiper-wrapper:not(.swiper-slide-active) {
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
